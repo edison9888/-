@@ -9,6 +9,10 @@
 #ifndef _____GJCommonUse_h
 #define _____GJCommonUse_h
 
+#define kGJMainFont @"Helvetica"
+#define kMenuArrayPath [[NSBundle mainBundle] pathForResource:@"GJMenuItem" ofType:@"plist"]
+
+
 #define IPHONE4S    (([UIScreen mainScreen].bounds.size.height==480)?TRUE:FALSE)
 #define IPHONE5     (([UIScreen mainScreen].bounds.size.height==568)?TRUE:FALSE)
 #define IPHONE6     (([UIScreen mainScreen].bounds.size.height==667)?TRUE:FALSE)
@@ -19,6 +23,25 @@
 #define kScreenWidth    ([UIScreen mainScreen].bounds.size.width)
 #define kScreenHeight   ([UIScreen mainScreen].bounds.size.height)
 #define kNavgationBarHeight 64.0f
+
+
+/**
+ *  框架宏
+ *
+ */
+#define kMenuCellBaseHeight (IPHONE6Plus?45.0f*1.2:45)
+#define kMenuCellWidth      ((kScreenWidth)*0.7)
+
+
+
+/**
+ *  DEBUG NSLog
+ */
+#ifdef DEBUG // 调试状态, 打开LOG功能
+#define WHUTLog(...) NSLog(__VA_ARGS__)
+#else // 发布状态, 关闭LOG功能
+#define WHUTLog(...)
+#endif
 
 
 /**
