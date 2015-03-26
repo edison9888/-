@@ -15,5 +15,5 @@
 #import "GJCommonUse.h"
 #import "UIView+FrameworkExtension.h"
 #import "NSObject+iPhoneType.h"
-#import "UIViewController+WHUTFramework.h"
+#import "UIViewController+CXFramework.h"
 #endif

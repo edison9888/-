@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<array>
+	<dict>
+		<key>text</key>
+		<string>关联消息</string>
+		<key>image</key>
+		<string>msg</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>收藏</string>
+		<key>image</key>
+		<string>save</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>已下载</string>
+		<key>image</key>
+		<string>download</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>添加</string>
+		<key>image</key>
+		<string>add</string>
+	</dict>
+</array>
 </plist>

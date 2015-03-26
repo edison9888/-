@@ -30,7 +30,7 @@
  *
  */
 #define kMenuCellBaseHeight (IPHONE6Plus?45.0f*1.2:45)
-#define kMenuCellWidth      ((kScreenWidth)*0.7)
+#define kMenuCellWidth      ((kScreenWidth)*0.48)
 
 
 
@@ -38,9 +38,9 @@
  *  DEBUG NSLog
  */
 #ifdef DEBUG // 调试状态, 打开LOG功能
-#define WHUTLog(...) NSLog(__VA_ARGS__)
+#define GJLog(...) NSLog(__VA_ARGS__)
 #else // 发布状态, 关闭LOG功能
-#define WHUTLog(...)
+#define GJLog(...)
 #endif
 
 
