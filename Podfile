@@ -1,0 +1,6 @@
+platform:ios,'7.0'
+pod 'AFNetworking','~> 2.5.0'
+pod 'MMDrawerController','~> 0.5.7'
+pod 'MBProgressHUD','~> 0.9'
+pod 'MJRefresh','~> 1.4.1'
+pod 'MJExtension','~> 0.2.0'
